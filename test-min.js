@@ -1,0 +1,1 @@
+var sum=function u(){var n=0;return[5,5,5].forEach(function u(t){n+=t}),n};test("Lambdas.",function(){equal(sum(),15,"result should be 15.")});
